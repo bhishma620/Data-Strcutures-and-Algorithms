@@ -1,23 +1,22 @@
 #include <bits/stdc++.h>
 using namespace std;
- int n;
-void R(int i,int arr[]){
+ 
+void R(int i,int arr[],int n){
     if(i>=n/2)return;
     swap(arr[i],arr[n-i-1]);
-    return R(i+1,arr);
+    return R(i+1,arr,n);
 }
 int main(){
-   
-    cout<<"Enter the size of array:";
+ int n;
     cin>>n;
     int arr[n];
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    R(0,arr);
-    cout<<"After Reversing the array is:"<<endl;
+    R(0,arr,n);
+    
     for(int i=0;i<n;i++){
-        cout<<arr[i]<<" ";
+        cout<<arr[i]<<"\n";
     }
     return 0;
 }
