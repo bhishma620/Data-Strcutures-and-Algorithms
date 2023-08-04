@@ -128,7 +128,7 @@ void delpos(int pos){
 	}
 	
 	if(pos==1){
-		delbegin;
+		delbegin();
 	}
 	else if(pos>c){
 		printf("Wrong position!!\n");
