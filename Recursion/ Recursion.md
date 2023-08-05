@@ -9,3 +9,5 @@
 ## 6. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) 
 ## 7. [Maximum and Minimum value in an array](https://www.geeksforgeeks.org/recursive-programs-to-find-minimum-and-maximum-elements-of-array/) 
 ## 8. [Binary Search using recursion](https://leetcode.com/problems/binary-search/)
+## 9. [Bubble Sort using recursion]
+## 10.[Selection Sort using recursion]
