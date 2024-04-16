@@ -7,7 +7,7 @@ public class DisjointSetUnionBySize {
         size = new int[n];
         for (int i = 0; i < n; i++) {
             par[i] = i;
-            size[i] = 0;
+            size[i] = 1;
         }
     }
 
