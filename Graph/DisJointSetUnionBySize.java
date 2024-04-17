@@ -29,7 +29,7 @@ public class DisjointSetUnionBySize {
         int su = size[pu];
         int sv = size[pv];
 
-        if (su <= sv) {
+        if (su < sv) {
             size[pv] += size[pu];
             par[pu] = pv;
         } else {
